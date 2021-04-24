@@ -19,5 +19,5 @@ If you have the above follow these steps:
   ```
 3. `cd` to your new project
 4. `npm install`
-5. `npm start`
-6. At this point your typescript files will be compiling on save. Using a simple local web sever that's pointed at `index.html`, navigate to your application.
+5. `npm start`: At this point your typescript files will be compiling on save.
+6.  Using a simple local web sever that's pointed at `index.html`, navigate to your application.
