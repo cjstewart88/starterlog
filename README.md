@@ -4,11 +4,8 @@ The purpose of this project is to provide a starting point for simple typescript
 
 # Getting Started
 
-This assumes you have:
-1. Node.js
-2. A simple local web server that can serve a static `index.html` file
+This assumes you have Node.js.
 
-If you have the above follow these steps:
 1. Clone this repo
 2. Copy the following files into a new project's directory:
   ```
@@ -18,6 +15,8 @@ If you have the above follow these steps:
   tsconfig.json
   ```
 3. `cd` to your new project
-4. `npm install`
-5. `npm start`: At this point your typescript files will be compiling on save.
-6.  Using a simple local web sever that's pointed at `index.html`, navigate to your application.
+4. `npm install` to install dependencies
+5. `npm start`:
+  - starts a tiny http server
+  - compiles changes to your typescript files into javascript files so the browser can interpret them
+6.  Navigate to http://localhost:8080/
